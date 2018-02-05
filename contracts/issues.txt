@@ -1,0 +1,12 @@
+CMultisigWallet_Gifto
+line 212
+the function filterBuyers can not screen zero address. Line 227 is a verification. It has no effect.
+
+CMultisigWallet_Gifto
+line 291
+No overflow check. Recommend using safe math library with checking overflow
+
+Gifto
+line 725
+What is createCoin function for?
+the variable 'flag' never turns to 'true' after calling createCoin funtion for once.
